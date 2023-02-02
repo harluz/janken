@@ -59,8 +59,6 @@ def janken(pattern, hand, direction)
     next_game(pattern, hand, direction)
   else
     puts "戦いませんでした。"
-    pattern = "restart"
-    janken(pattern, hand, direction)
   end
 end
 
