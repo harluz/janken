@@ -75,14 +75,12 @@ def next_game(pattern, hand, direction)
 
   if pattern == "win" && player_num == program_num
     puts_out_line
-    puts "🎉🎉🎉!!! VICTORY !!!🎉🎉🎉"
+    puts "!!! VICTORY !!!"
     puts_out_line
   elsif pattern == "lose" && player_num == program_num
     puts_out_line
     puts "..........lose............"
     puts_out_line
-    pattern = "restart"
-    janken(pattern, hand, direction)
   else
     pattern = "restart"
     janken(pattern, hand, direction)
